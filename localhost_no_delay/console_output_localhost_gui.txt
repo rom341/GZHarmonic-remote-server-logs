@@ -1,0 +1,969 @@
+[1;32m[Msg] [0m[1;32mGazebo Sim GUI    v[0m[1;32m8.7.0[0m[1;32m[0m
+Current host address: 127.0.0.1
+Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+Bind at: [udp://239.255.0.7:10317] for msg discovery
+Bind at: [udp://239.255.0.7:10318] for srv discovery
+Bind at: [tcp://127.0.0.1:34407] for pub/sub
+Bind at: [tcp://127.0.0.1:43933] for srv. calls
+Identity for receiving srv. requests: [6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3]
+Identity for receiving srv. responses: [92f32148-0a7a-4f1b-9322-79343fb77305]
+[1;36m[Dbg] [Application.cc:96] [0m[1;36mInitializing application.[0m[1;36m[0m
+[1;36m[Dbg] [Application.cc:170] [0m[1;36mQt using OpenGL graphics interface[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [Application.cc:657] [0m[1;36mCreate main window[0m[1;36m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Control address: unused
+	Message type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/clock]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.Clock
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/stats]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/clock]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.Clock
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/stats]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 10 msgs/sec
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/dynamic_pose/info]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.Pose_V
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 60 msgs/sec
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/pose/info]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.Pose_V
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 60 msgs/sec
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/deletion]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.UInt32_V
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/info]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.Scene
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.SerializedStepMap
+Advertise options:
+	Scope: All
+	Throttled? No
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/entity/system/add]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 253bd102-3735-47c0-8e4f-763213ae0596
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.EntityPlugin_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;36m[GUI] [Dbg] [PathManager.cc:68] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+	* Connected to [tcp://127.0.0.1:41515] for service requests
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/system/info]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 253bd102-3735-47c0-8e4f-763213ae0596
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.EntityPlugin_V
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/add]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.StringMsg_V
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+Connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Control address: unused
+	Message type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+	Throttled? No
+	* Connected to [tcp://127.0.0.1:45919] for data
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/get]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+Found a service call responser at [tcp://127.0.0.1:41515]
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/resolve]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/worlds]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/server_control]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 6e7f78bb-2efc-43ac-bb5a-59c5fd8ca50c
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.ServerControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/level/set_performer]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 85e73c7d-d796-4444-9da4-3be356160ab2
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/create]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.EntityFactory
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/create_multiple]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.EntityFactory_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/disable_collision]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/enable_collision]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/light_config]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Light
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/remove]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_physics]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Physics
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_pose]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Pose
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_pose_vector]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Pose_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_spherical_coordinates]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.SphericalCoordinates
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/visual_config]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Visual
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/wheel_slip]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 86a3111c-708d-4008-b60d-ddb8a001ee66
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.WheelSlipParametersCmd
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/control]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.WorldControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/control/state]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.WorldControlState
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/generate_world_sdf]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.SdfGeneratorConfig
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/gui/info]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.GUI
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/playback/control]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.LogPlaybackControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/graph]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/info]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Scene
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.SerializedStepMap
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state_async]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/declare_parameter]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: ff63fd0f-8b4f-4c47-b175-1accd17e8901
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Parameter
+	Response type: gz.msgs.ParameterError
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/get_parameter]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: ff63fd0f-8b4f-4c47-b175-1accd17e8901
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.ParameterName
+	Response type: gz.msgs.ParameterValue
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/list_parameters]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: ff63fd0f-8b4f-4c47-b175-1accd17e8901
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.ParameterDeclarations
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_parameter]
+	Address: tcp://127.0.0.1:41515
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: ff63fd0f-8b4f-4c47-b175-1accd17e8901
+	Socket ID: 572daf73-4d5b-4cbf-b169-05a845417e96
+	Request type: gz.msgs.Parameter
+	Response type: gz.msgs.ParameterError
+Advertise options:
+	Scope: All
+[1;36m[GUI] [Dbg] [Gui.cc:355] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+Found a service call responser at [tcp://127.0.0.1:41515]
+Message received containing a service call REP
+[1;36m[GUI] [Dbg] [PathManager.cc:57] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+Message received containing a service call REP
+[1;36m[GUI] [Dbg] [Gui.cc:413] [0m[1;36mRequesting GUI from [[0m[1;36m/world/shapes/gui/info[0m[1;36m]...[0m[1;36m[0m
+Found a service call responser at [tcp://127.0.0.1:41515]
+Message received containing a service call REP
+[1;36m[GUI] [Dbg] [GuiRunner.cc:149] [0m[1;36mRequesting initial state from [[0m[1;36m/world/shapes/state[0m[1;36m]...[0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/10127/state_async]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: dfc9bbb5-eebf-4a98-8e99-765ff5ff8c04
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.SerializedStepMap
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+	* Connected to [tcp://127.0.0.1:43933] for service requests
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: e2755d67-bb25-471e-8938-c2dc13353371
+	Control address: unused
+	Message type: gz.msgs.SerializedStepMap
+Advertise options:
+	Scope: All
+	Throttled? No
+	* Connected to [tcp://127.0.0.1:45919] for data
+Found a service call responser at [tcp://127.0.0.1:41515]
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/home/roman/.gz/sim/8/gui.config[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMinimalScene[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+Message received requesting a service call
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityContextMenuPlugin[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 5997a99d-2a14-4cb7-b53c-0d7049ebc7c2
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity Context Menu[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityContextMenuPlugin[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEntityContextMenuPlugin.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mGzSceneManager[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mInteractiveViewControl[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0d1fb159-fcef-49f2-b397-de733c3b81ed
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/reference_visual]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0d1fb159-fcef-49f2-b397-de733c3b81ed
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Boolean
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/sensitivity]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0d1fb159-fcef-49f2-b397-de733c3b81ed
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Double
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCameraTracking[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCamera tracking[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCameraTracking[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libCameraTracking.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMarkerManager[0m[1;36m][0m[1;36m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/stats]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 10 msgs/sec
+	* Connected to [tcp://127.0.0.1:45919] for data
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/shapes/stats[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mMarker Manager[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMarkerManager[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libMarkerManager.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSelectEntities[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSelect entities[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSelectEntities[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libSelectEntities.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSpawn[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSpawn[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSpawn[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libSpawn.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mVisualizationCapabilities[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/transparent]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as transparent service on [[0m[1;32m/gui/view/transparent[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/wireframes]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as wireframes service on [[0m[1;32m/gui/view/wireframes[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/com]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView center of mass service on [[0m[1;32m/gui/view/com[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/inertia]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView inertia service on [[0m[1;32m/gui/view/inertia[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/collisions]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView collisions service on [[0m[1;32m/gui/view/collisions[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/joints]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView joints service on [[0m[1;32m/gui/view/joints[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/frames]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1860e90a-3f26-4b66-98e2-a6c2a91811b1
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView frames service on [[0m[1;32m/gui/view/frames[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mVisualization capabilities[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mVisualizationCapabilities[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libVisualizationCapabilities.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/shapes/control[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/stats]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 10 msgs/sec
+	* Connected to [tcp://127.0.0.1:45919] for data
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/shapes/stats[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [WorldControl.cc:237] [0m[1;36mUsing an event to share WorldControl msgs with the server[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldStats[0m[1;36m][0m[1;36m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/stats]
+	Address: tcp://127.0.0.1:45919
+	Process UUID: 698e7a10-cfa8-475b-9b6b-0a1a0d2f818c
+	Node UUID: 9c0bdae5-f63b-4ea7-ad5f-cb1e8f409122
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 10 msgs/sec
+	* Connected to [tcp://127.0.0.1:45919] for data
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/shapes/stats[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mShapes[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mShapes[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mShapes[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libShapes.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mLights[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mLights[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mLights[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libLights.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mTransformControl[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mTransform control[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mTransformControl[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libTransformControl.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mScreenshot[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/screenshot]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 1ccf9af6-46bf-4de9-8d3e-6b48931a4e3d
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mScreenshot service on [[0m[1;32m/gui/screenshot[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScreenshot[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mScreenshot[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libScreenshot.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCopyPaste[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/copy]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 4e19e2b2-5dc7-41fd-983c-1d4daceeaa86
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/paste]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 4e19e2b2-5dc7-41fd-983c-1d4daceeaa86
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCopy/Paste[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCopyPaste[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libCopyPaste.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mComponentInspector[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mComponent inspector[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mComponentInspector[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libComponentInspector.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityTree[0m[1;36m][0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 73927e7b-71fa-4819-8aba-ffc1bf6ca572
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity tree[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityTree[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEntityTree.so[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:398] [0m[1;36mLoading window config[0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [Application.cc:671] [0m[1;36mApplying config[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:749] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:1037] [0m[1;36mCreating texture node render interface for OpenGL[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [TransformControl.cc:453] [0m[1;36mTransformControl plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [Spawn.cc:308] [0m[1;36mSpawn plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [SelectEntities.cc:452] [0m[1;36mSelectEntities plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker/list]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0a6ac389-fc1c-4cbd-aaee-229e0ffb9743
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Marker_V
+Advertise options:
+	Scope: All
+[1;36m[GUI] [Dbg] [MarkerManager.cc:169] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list service.[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0a6ac389-fc1c-4cbd-aaee-229e0ffb9743
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Marker
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+[1;36m[GUI] [Dbg] [MarkerManager.cc:179] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list.[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker_array]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 0a6ac389-fc1c-4cbd-aaee-229e0ffb9743
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Marker_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;36m[GUI] [Dbg] [MarkerManager.cc:189] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m_array.[0m
+[1;36m[GUI] [Dbg] [CameraTracking.cc:205] [0m[1;36mCameraTrackingPrivate plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/move_to]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/follow]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m] (deprecated)[0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 5997a99d-2a14-4cb7-b53c-0d7049ebc7c2
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 73927e7b-71fa-4819-8aba-ffc1bf6ca572
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking topic on [[0m[1;32m/gui/track[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/currently_tracked]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking status topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/move_to/pose]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.GUICamera
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/pose]
+	Address: tcp://127.0.0.1:34407
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Control address: unused
+	Message type: gz.msgs.Pose
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/follow/offset]
+	Address: tcp://127.0.0.1:43933
+	Process UUID: ffee4fe1-fbb6-4f82-859e-aba1763ef8d9
+	Node UUID: 04638276-dcc1-4e0f-b03f-025c929ce38b
+	Socket ID: 6f7a4ea3-9873-4fde-a8c8-4cf9d093a5b3
+	Request type: gz.msgs.Vector3d
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m] (deprecated)[0m[1;32m[0m
+[1;36m[GUI] [Dbg] [InteractiveViewControl.cc:176] [0m[1;36mInteractiveViewControl plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [EntityContextMenuPlugin.cc:79] [0m[1;36mEntity context menu plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[1;36m[GUI] [Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[1;36m[GUI] [Dbg] [Gui.cc:535] [0m[1;36mShutting down gz-sim-gui[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [Application.cc:237] [0m[1;36mTerminating application.[0m[1;36m[0m
+[1;36m[GUI] [Dbg] [MinimalScene.cc:841] [0m[1;36mDestroy scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m

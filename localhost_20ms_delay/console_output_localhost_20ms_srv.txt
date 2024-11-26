@@ -1,0 +1,1095 @@
+[1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.7.0[0m[1;32m[0m
+Current host address: 127.0.0.1
+Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+Bind at: [udp://239.255.0.7:10317] for msg discovery
+Bind at: [udp://239.255.0.7:10318] for srv discovery
+Bind at: [tcp://127.0.0.1:33459] for pub/sub
+Bind at: [tcp://127.0.0.1:35311] for srv. calls
+Identity for receiving srv. requests: [02058d18-4c15-479c-8820-ce840ea5e79a]
+Identity for receiving srv. responses: [37f3fcbe-3c3a-49c9-8624-10eccbf810a9]
+[1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/usr/share/gz/gz-sim8/worlds/shapes.sdf[0m[1;32m].[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/get_parameter]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f256a49e-b91b-415f-ab23-9312fb2b550f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.ParameterName
+	Response type: gz.msgs.ParameterValue
+Advertise options:
+	Scope: All
+	* Connected to [tcp://127.0.0.1:35311] for service requests
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/list_parameters]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f256a49e-b91b-415f-ab23-9312fb2b550f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.ParameterDeclarations
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_parameter]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f256a49e-b91b-415f-ab23-9312fb2b550f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Parameter
+	Response type: gz.msgs.ParameterError
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/declare_parameter]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f256a49e-b91b-415f-ab23-9312fb2b550f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Parameter
+	Response type: gz.msgs.ParameterError
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/entity/system/add]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f80ed77a-9b47-44c4-b069-2fd975c1557b
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.EntityPlugin_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/system/info]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: f80ed77a-9b47-44c4-b069-2fd975c1557b
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.EntityPlugin_V
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/level/set_performer]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 0049103b-4d32-4fd7-a402-f680b1b18357
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mNo systems loaded from SDF, loading defaults[0m[1;32m[0m
+[1;36m[Dbg] [ServerConfig.cc:1034] [0m[1;36mLoaded ([0m[1;36m3[0m[1;36m) plugins from file [0m[1;36m[[0m[1;36m/home/roman/.gz/sim/8/server.config[0m[1;36m][0m
+[1;36m[Dbg] [Physics.cc:871] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/create]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.EntityFactory
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/create_multiple]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.EntityFactory_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/shapes/create[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/remove]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/shapes/remove[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_pose]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Pose
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/shapes/set_pose[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_pose_vector]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Pose_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/shapes/set_pose_vector[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/light_config]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Light
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/shapes/light_config[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_physics]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Physics
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/shapes/set_physics[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/set_spherical_coordinates]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.SphericalCoordinates
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/shapes/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/enable_collision]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/shapes/enable_collision[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/disable_collision]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Entity
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/shapes/disable_collision[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/visual_config]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Visual
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/shapes/visual_config[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/wheel_slip]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 8fcc9f81-4b59-4629-867a-f10a8820e563
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.WheelSlipParametersCmd
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/shapes/wheel_slip[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/control]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.WorldControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/control/state]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.WorldControlState
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/playback/control]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.LogPlaybackControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/shapes[0m[1;32m/control], [[0m[1;32m/world/shapes[0m[1;32m/control/state] and [[0m[1;32m/world/shapes[0m[1;32m/playback/control][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/gui/info]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.GUI
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWorld [[0m[1;32mshapes[0m[1;32m] initialized with [[0m[1;32mdefault_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/generate_world_sdf]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.SdfGeneratorConfig
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/worlds]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/add]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.StringMsg_V
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/get]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths/resolve]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/gazebo/resource_paths]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Control address: unused
+	Message type: gz.msgs.StringMsg_V
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/server_control]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: 4d6aa273-afc0-4bb4-9008-3891ed0bcf1f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.ServerControl
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/stats]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 10 msgs/sec
+[1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/stats]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Control address: unused
+	Message type: gz.msgs.WorldStatistics
+Advertise options:
+	Scope: All
+	Throttled? No
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/clock]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Control address: unused
+	Message type: gz.msgs.Clock
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/clock]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: c5574187-fa0d-49b1-81c1-9e0f88b8ac2e
+	Control address: unused
+	Message type: gz.msgs.Clock
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;36m[Dbg] [SimulationRunner.cc:533] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m2[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/info]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Scene
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/graph]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.StringMsg
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.SerializedStepMap
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+Service call connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state_async]
+	Address: tcp://127.0.0.1:35311
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Socket ID: 02058d18-4c15-479c-8820-ce840ea5e79a
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+[1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/info]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Control address: unused
+	Message type: gz.msgs.Scene
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/shapes/scene/info[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/scene/deletion]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Control address: unused
+	Message type: gz.msgs.UInt32_V
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/shapes/scene/deletion[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/state]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Control address: unused
+	Message type: gz.msgs.SerializedStepMap
+Advertise options:
+	Scope: All
+	Throttled? No
+[1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/shapes/state[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/pose/info]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Control address: unused
+	Message type: gz.msgs.Pose_V
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 60 msgs/sec
+[1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+Connection callback
+Publisher:
+	Topic: [@/1@/world/shapes/dynamic_pose/info]
+	Address: tcp://127.0.0.1:33459
+	Process UUID: 4c22a541-32ea-4de4-bbb4-dd97bd66f0b1
+	Node UUID: eb9e63d0-db22-4756-8756-d2243dc97e3f
+	Control address: unused
+	Message type: gz.msgs.Pose_V
+Advertise options:
+	Scope: All
+	Throttled? Yes
+	Rate: 60 msgs/sec
+[1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/shapes[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+Message received requesting a service call
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [3ad0a4b3-b3d6-41ef-9474-54a26aa45521]
+	* Connected to [tcp://127.0.0.1:41269] for sending a response
+Message received requesting a service call
+Message received requesting a service call
+Message received requesting a service call
+Service call connection callback
+Publisher:
+	Topic: [@/1@/9772/state_async]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8534e4ed-4631-4d24-b57e-773176af9b05
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.SerializedStepMap
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [8534e4ed-4631-4d24-b57e-773176af9b05]
+Message received requesting a service call
+	* Connected to [tcp://127.0.0.1:37449] for service requests
+[1;36m[Dbg] [EntityComponentManager.cc:1656] [0m[1;36mUpdated state thread iterators: [0m[1;36m4[0m[1;36m threads processing around [0m[1;36m9[0m[1;36m entities each.[0m[1;36m[0m
+Found a service call responser at [tcp://127.0.0.1:37449]
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:33159
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 928de6b8-6be4-4639-853f-b66b27d32858
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/reference_visual]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Boolean
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/sensitivity]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Double
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [81f0974f-a34a-493e-ae6c-08980811feed]
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/transparent]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/wireframes]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/com]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/inertia]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/collisions]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/joints]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/view/frames]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [81f0974f-a34a-493e-ae6c-08980811feed]
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [8a30c684-2433-4459-89cd-2d51b6a69cbe]
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [2532bcb4-a0e9-49a2-808e-de122970f55d]
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [81f0974f-a34a-493e-ae6c-08980811feed]
+Registering a new remote connection
+	Proc UUID: [fa32590b-d7ee-4861-89a3-093439aaf6c5]
+	Node UUID: [8a30c684-2433-4459-89cd-2d51b6a69cbe]
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/screenshot]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 6b8386a8-4a8d-4605-8f45-26432750955a
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/copy]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 12c92ac2-dc79-48ac-8025-77f6741880d6
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/paste]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 12c92ac2-dc79-48ac-8025-77f6741880d6
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/track]
+	Address: tcp://127.0.0.1:33159
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: e2e091d1-2a46-497b-9c93-1b76c0f57fac
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker/list]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Marker_V
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Marker
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/marker_array]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Marker_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/move_to]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/follow]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/currently_tracked]
+	Address: tcp://127.0.0.1:33159
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Control address: unused
+	Message type: gz.msgs.CameraTrack
+Advertise options:
+	Scope: All
+	Throttled? No
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/move_to/pose]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.GUICamera
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Connection callback
+Publisher:
+	Topic: [@/1@/gui/camera/pose]
+	Address: tcp://127.0.0.1:33159
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Control address: unused
+	Message type: gz.msgs.Pose
+Advertise options:
+	Scope: All
+	Throttled? No
+Service call connection callback
+Publisher:
+	Topic: [@/1@/gui/follow/offset]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Vector3d
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+New disconnection detected 
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/sensitivity]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Double
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+New disconnection detected 
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+New disconnection detected 
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/camera/view_control/reference_visual]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+Registering the end of a remote connection	Socket ID: 
+	Proc UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: [81f0974f-a34a-493e-ae6c-08980811feed]
+75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Boolean
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+Registering the end of a remote connection	Topic: [
+@/1@/gui/camera/view_control	Proc UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: [8a30c684-2433-4459-89cd-2d51b6a69cbe]
+]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8fda1a25-fbeb-449c-b264-7913062dab0c
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/follow/offset]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Vector3d
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Registering the end of a remote connection
+	Proc UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+Service call disconnection callback	Node UUID: [2532bcb4-a0e9-49a2-808e-de122970f55d]
+
+Publisher:
+	Topic: [@/1@/gui/move_to/pose]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.GUICamera
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/follow]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/move_to]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: aa017dcd-dd80-4bff-a229-aee0f33e84b4
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/marker_array]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Marker_V
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/marker]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Marker
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/marker/list]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 81f0974f-a34a-493e-ae6c-08980811feed
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Marker_V
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/joints]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/collisions]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/frames]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/inertia]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/com]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/wireframes]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/view/transparent]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 4194b7b0-1642-4ef6-ba95-b3b1962b1217
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/screenshot]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 6b8386a8-4a8d-4605-8f45-26432750955a
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/paste]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 12c92ac2-dc79-48ac-8025-77f6741880d6
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.Empty
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/gui/copy]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 12c92ac2-dc79-48ac-8025-77f6741880d6
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.StringMsg
+	Response type: gz.msgs.Boolean
+Advertise options:
+	Scope: All
+New disconnection detected 
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+Registering the end of a remote connection
+	Proc UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: [3ad0a4b3-b3d6-41ef-9474-54a26aa45521]
+Registering the end of a remote connection
+	Proc UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: [8534e4ed-4631-4d24-b57e-773176af9b05]
+Service call disconnection callback
+Publisher:
+	Topic: [@/1@/9772/state_async]
+	Address: tcp://127.0.0.1:37449
+	Process UUID: fa32590b-d7ee-4861-89a3-093439aaf6c5
+	Node UUID: 8534e4ed-4631-4d24-b57e-773176af9b05
+	Socket ID: 75beafdc-3fe1-4d6d-b6e2-441ab042d7a8
+	Request type: gz.msgs.SerializedStepMap
+	Response type: gz.msgs.Empty
+Advertise options:
+	Scope: All
+[1;36m[Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[1;36m[Dbg] [ServerPrivate.cc:122] [0m[1;36mServer received signal[[0m[1;36m2[0m[1;36m][0m
+[1;36m[Dbg] [gz.cc:434] [0m[1;36mShutting down gz-sim-server[0m[1;36m[0m
+[1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m

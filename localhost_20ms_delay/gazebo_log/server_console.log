@@ -1,0 +1,54 @@
+(2024-11-26T17:19:50.921520172) (2024-11-26T17:19:50.921533102) [Msg] Gazebo Sim Server v8.7.0
+(2024-11-26T17:19:50.941075879) (2024-11-26T17:19:50.941088375) [Msg] Loading SDF world file[/usr/share/gz/gz-sim8/worlds/shapes.sdf].
+(2024-11-26T17:19:51.173739026) (2024-11-26T17:19:51.173774565) [Msg] Serving entity system service on [/entity/system/add]
+(2024-11-26T17:19:51.183720577) (2024-11-26T17:19:51.183751093) [Msg] Loaded level [default]
+(2024-11-26T17:19:51.183846349) (2024-11-26T17:19:51.183866321) [Msg] No systems loaded from SDF, loading defaults
+(2024-11-26T17:19:51.184469991) (2024-11-26T17:19:51.184494315) [Dbg] [ServerConfig.cc:1034] Loaded (3) plugins from file [/home/roman/.gz/sim/8/server.config]
+(2024-11-26T17:19:51.275444960) (2024-11-26T17:19:51.275458284) [Dbg] [Physics.cc:871] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2024-11-26T17:19:51.275529374) (2024-11-26T17:19:51.275536430) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2024-11-26T17:19:51.278691684) (2024-11-26T17:19:51.278702582) [Msg] Create service on [/world/shapes/create]
+(2024-11-26T17:19:51.278912412) (2024-11-26T17:19:51.278921002) [Msg] Remove service on [/world/shapes/remove]
+(2024-11-26T17:19:51.279098542) (2024-11-26T17:19:51.279106362) [Msg] Pose service on [/world/shapes/set_pose]
+(2024-11-26T17:19:51.279305881) (2024-11-26T17:19:51.279313881) [Msg] Pose service on [/world/shapes/set_pose_vector]
+(2024-11-26T17:19:51.279538873) (2024-11-26T17:19:51.279546894) [Msg] Light configuration service on [/world/shapes/light_config]
+(2024-11-26T17:19:51.279826508) (2024-11-26T17:19:51.279834487) [Msg] Physics service on [/world/shapes/set_physics]
+(2024-11-26T17:19:51.280052302) (2024-11-26T17:19:51.280060147) [Msg] SphericalCoordinates service on [/world/shapes/set_spherical_coordinates]
+(2024-11-26T17:19:51.280227363) (2024-11-26T17:19:51.280235262) [Msg] Enable collision service on [/world/shapes/enable_collision]
+(2024-11-26T17:19:51.280372649) (2024-11-26T17:19:51.280380035) [Msg] Disable collision service on [/world/shapes/disable_collision]
+(2024-11-26T17:19:51.280606632) (2024-11-26T17:19:51.280614568) [Msg] Material service on [/world/shapes/visual_config]
+(2024-11-26T17:19:51.280786795) (2024-11-26T17:19:51.280794434) [Msg] Material service on [/world/shapes/wheel_slip]
+(2024-11-26T17:19:51.280833819) (2024-11-26T17:19:51.280840533) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2024-11-26T17:19:51.282420895) (2024-11-26T17:19:51.282431132) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2024-11-26T17:19:51.283500742) (2024-11-26T17:19:51.283510275) [Msg] Serving world controls on [/world/shapes/control], [/world/shapes/control/state] and [/world/shapes/playback/control]
+(2024-11-26T17:19:51.283709290) (2024-11-26T17:19:51.283717271) [Msg] Serving GUI information on [/world/shapes/gui/info]
+(2024-11-26T17:19:51.283751472) (2024-11-26T17:19:51.283758077) [Msg] World [shapes] initialized with [default_physics] physics profile.
+(2024-11-26T17:19:51.283979769) (2024-11-26T17:19:51.283987759) [Msg] Serving world SDF generation service on [/world/shapes/generate_world_sdf]
+(2024-11-26T17:19:51.284196571) (2024-11-26T17:19:51.284204542) [Msg] Serving world names on [/gazebo/worlds]
+(2024-11-26T17:19:51.284345463) (2024-11-26T17:19:51.284352877) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2024-11-26T17:19:51.284487268) (2024-11-26T17:19:51.284494586) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2024-11-26T17:19:51.284629684) (2024-11-26T17:19:51.284637008) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2024-11-26T17:19:51.284774183) (2024-11-26T17:19:51.284781519) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2024-11-26T17:19:51.284954887) (2024-11-26T17:19:51.284962748) [Msg] Server control service on [/server_control].
+(2024-11-26T17:19:52.924409359) (2024-11-26T17:19:52.924452271) [Msg] Found no publishers on /stats, adding root stats topic
+(2024-11-26T17:19:52.925456992) (2024-11-26T17:19:52.925472969) [Msg] Found no publishers on /clock, adding root clock topic
+(2024-11-26T17:19:52.925763245) (2024-11-26T17:19:52.925772006) [Dbg] [SimulationRunner.cc:533] Creating PostUpdate worker threads: 2
+(2024-11-26T17:19:52.925802413) (2024-11-26T17:19:52.925809198) [Dbg] [SimulationRunner.cc:544] Creating postupdate worker thread (0)
+(2024-11-26T17:19:52.929128956) (2024-11-26T17:19:52.929155207) [Wrn] [SDFFeatures.cc:365] DART: Ellipsoid is not a supported collision geomerty primitive, using generated mesh of an ellipsoid instead
+(2024-11-26T17:19:52.932227956) (2024-11-26T17:19:52.932244974) [Wrn] [SDFFeatures.cc:350] DART: Cone is not a supported collision geomerty primitive, using generated mesh of a cone instead
+(2024-11-26T17:19:52.936643178) (2024-11-26T17:19:52.936659534) [Msg] Serving scene information on [/world/shapes/scene/info]
+(2024-11-26T17:19:52.936894500) (2024-11-26T17:19:52.936905889) [Msg] Serving graph information on [/world/shapes/scene/graph]
+(2024-11-26T17:19:52.937279759) (2024-11-26T17:19:52.937291820) [Msg] Serving full state on [/world/shapes/state]
+(2024-11-26T17:19:52.937508530) (2024-11-26T17:19:52.937517196) [Msg] Serving full state (async) on [/world/shapes/state_async]
+(2024-11-26T17:19:52.937709389) (2024-11-26T17:19:52.937717920) [Msg] Publishing scene information on [/world/shapes/scene/info]
+(2024-11-26T17:19:52.937904249) (2024-11-26T17:19:52.937912482) [Msg] Publishing entity deletions on [/world/shapes/scene/deletion]
+(2024-11-26T17:19:52.938043143) (2024-11-26T17:19:52.938050755) [Msg] Publishing state changes on [/world/shapes/state]
+(2024-11-26T17:19:52.938286969) (2024-11-26T17:19:52.938296104) [Msg] Publishing pose messages on [/world/shapes/pose/info]
+(2024-11-26T17:19:52.938527577) (2024-11-26T17:19:52.938538969) [Msg] Publishing dynamic pose messages on [/world/shapes/dynamic_pose/info]
+(2024-11-26T17:20:01.529640240) (2024-11-26T17:20:01.529667468) [Dbg] [EntityComponentManager.cc:1656] Updated state thread iterators: 4 threads processing around 9 entities each.
+(2024-11-26T17:20:01.530044107) (2024-11-26T17:20:01.530063511) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2024-11-26T17:20:01.530166172) (2024-11-26T17:20:01.5301910952024-11-26T17:20:01.530191095(2024-11-26T17:20:01.530488887) (2024-11-26T17:20:01.530505964) [Wrn] [Component.hh:144] ) Trying to serialize component with data type [N3sdf3v145WorldE], which doesn't have `operator<<`. Component will not be serialized.
+Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2024-11-26T17:20:20.54043434) (2024-11-26T17:20:20.54088843) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2024-11-26T17:20:20.54232938) (2024-11-26T17:20:20.54259430) [Dbg] [ServerPrivate.cc:122] Server received signal[2]
+(2024-11-26T17:20:20.55054647) (2024-11-26T17:20:20.55102324) [Dbg] [gz.cc:434] Shutting down gz-sim-server
+(2024-11-26T17:20:20.67524153) (2024-11-26T17:20:20.67568125) [Dbg] [SimulationRunner.cc:560] Exiting postupdate worker thread (0)

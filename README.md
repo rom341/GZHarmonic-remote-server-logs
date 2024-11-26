@@ -10,6 +10,8 @@ Server: AWS EC2 Ubuntu 24.04 + OpenVPN in TAP mode + GZ Harmonic v8.7.0 from bin
 
 Clients: Ubuntu 24.04 + GZ Harmonic v8.7.0 from binary install.
 
+Ping between client and server +- 200ms
+
 # Steps to reproduce:
 On the server, I run the following commands:
 ```bash
